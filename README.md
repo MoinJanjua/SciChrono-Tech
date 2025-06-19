@@ -2,14 +2,6 @@
 
 Welcome to **SciChrono Tech**, your ultimate hub for **precision calculations** and **seamless time management**! This powerful calculator app brings an all-in-one solution to your device, designed for everyone — from students to professionals.
 
-![App Screenshot 1](https://github.com/MoinJanjua/SciChrono-Tech/blob/main/1.png)
-![App Screenshot 2](https://github.com/MoinJanjua/SciChrono-Tech/blob/main/2.png)
-![App Screenshot 3](https://github.com/MoinJanjua/SciChrono-Tech/blob/main/3.png)
-![App Screenshot 4](https://github.com/MoinJanjua/SciChrono-Tech/blob/main/4.png)
-![App Screenshot 5](https://github.com/MoinJanjua/SciChrono-Tech/blob/main/5.png)
-
----
-
 ## 🚀 Features
 
 🔹 **Standard Calculator**  
