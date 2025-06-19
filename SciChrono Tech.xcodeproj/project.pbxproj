@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E2910322D5C87910091DFB3 /* ScientificCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2910312D5C87910091DFB3 /* ScientificCalculatorViewController.swift */; };
+		4E4FD3B62D5CBAFD00EDA99B /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4FD3B52D5CBAFD00EDA99B /* HistoryViewController.swift */; };
+		4E5B04982D5A0DAC00B123DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5B04972D5A0DAC00B123DB /* AppDelegate.swift */; };
+		4E5B049A2D5A0DAC00B123DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5B04992D5A0DAC00B123DB /* SceneDelegate.swift */; };
+		4E5B049C2D5A0DAC00B123DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5B049B2D5A0DAC00B123DB /* ViewController.swift */; };
+		4E5B049F2D5A0DAC00B123DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E5B049D2D5A0DAC00B123DB /* Main.storyboard */; };
+		4E5B04A12D5A0DAE00B123DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E5B04A02D5A0DAE00B123DB /* Assets.xcassets */; };
+		4E5B04A42D5A0DAE00B123DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E5B04A22D5A0DAE00B123DB /* LaunchScreen.storyboard */; };
+		4E5B04AD2D5A104000B123DB /* WelcomeSreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5B04AC2D5A104000B123DB /* WelcomeSreenViewController.swift */; };
+		4E5B04B12D5A110300B123DB /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5B04AF2D5A110200B123DB /* Helper.swift */; };
+		4E5B04B22D5A110300B123DB /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5B04B02D5A110200B123DB /* iOSDropDown.swift */; };
+		4E5B04B52D5A114C00B123DB /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5B04B42D5A114C00B123DB /* DashboardViewController.swift */; };
+		4E80D63D2D5B535900BFE28A /* AgeCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E80D63C2D5B535900BFE28A /* AgeCalculatorViewController.swift */; };
+		4E8489292D5B6B0D00AEB43A /* StandardcalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8489282D5B6B0D00AEB43A /* StandardcalculatorViewController.swift */; };
+		4E95072E2D65D8D000867FA9 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E95072D2D65D8D000867FA9 /* HomeCollectionViewCell.swift */; };
+		4EA2B6A62D5DDE3800EFE44F /* ScientificHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA2B6A52D5DDE3800EFE44F /* ScientificHistoryCell.swift */; };
+		4EA2B6A82D5DDE5000EFE44F /* StandardHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA2B6A72D5DDE5000EFE44F /* StandardHistoryCell.swift */; };
+		4EC2F6352D635DD200900FC2 /* UnitconversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC2F6342D635DD200900FC2 /* UnitconversionViewController.swift */; };
+		4ED547DA2D5B426200A31F4E /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED547D62D5B426100A31F4E /* SideMenuTableViewCell.swift */; };
+		4ED547DB2D5B426200A31F4E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED547D72D5B426200A31F4E /* SettingsViewController.swift */; };
+		4ED547DC2D5B426200A31F4E /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED547D82D5B426200A31F4E /* FeedbackViewController.swift */; };
+		4ED547DD2D5B426200A31F4E /* AboutusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED547D92D5B426200A31F4E /* AboutusViewController.swift */; };
+		F267D3C2C72EEA8DCBB45CBA /* Pods_SciChrono_Tech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4104A34DCEB4537923FCFA4A /* Pods_SciChrono_Tech.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0380D8AD0BD91699AE6FC817 /* Pods-SciChrono Tech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SciChrono Tech.release.xcconfig"; path = "Target Support Files/Pods-SciChrono Tech/Pods-SciChrono Tech.release.xcconfig"; sourceTree = "<group>"; };
+		4104A34DCEB4537923FCFA4A /* Pods_SciChrono_Tech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SciChrono_Tech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E2910312D5C87910091DFB3 /* ScientificCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScientificCalculatorViewController.swift; sourceTree = "<group>"; };
+		4E4FD3B52D5CBAFD00EDA99B /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		4E5B04942D5A0DAC00B123DB /* SciChrono Tech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SciChrono Tech.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E5B04972D5A0DAC00B123DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E5B04992D5A0DAC00B123DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4E5B049B2D5A0DAC00B123DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E5B049E2D5A0DAC00B123DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E5B04A02D5A0DAE00B123DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E5B04A32D5A0DAE00B123DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E5B04A52D5A0DAE00B123DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E5B04AC2D5A104000B123DB /* WelcomeSreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeSreenViewController.swift; sourceTree = "<group>"; };
+		4E5B04AF2D5A110200B123DB /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		4E5B04B02D5A110200B123DB /* iOSDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSDropDown.swift; sourceTree = "<group>"; };
+		4E5B04B42D5A114C00B123DB /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		4E80D63C2D5B535900BFE28A /* AgeCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeCalculatorViewController.swift; sourceTree = "<group>"; };
+		4E8489282D5B6B0D00AEB43A /* StandardcalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardcalculatorViewController.swift; sourceTree = "<group>"; };
+		4E95072D2D65D8D000867FA9 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		4EA2B6A52D5DDE3800EFE44F /* ScientificHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScientificHistoryCell.swift; sourceTree = "<group>"; };
+		4EA2B6A72D5DDE5000EFE44F /* StandardHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardHistoryCell.swift; sourceTree = "<group>"; };
+		4EC2F6342D635DD200900FC2 /* UnitconversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitconversionViewController.swift; sourceTree = "<group>"; };
+		4ED547D62D5B426100A31F4E /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		4ED547D72D5B426200A31F4E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4ED547D82D5B426200A31F4E /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		4ED547D92D5B426200A31F4E /* AboutusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutusViewController.swift; sourceTree = "<group>"; };
+		CFFE312F52B6617F3610F939 /* Pods-SciChrono Tech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SciChrono Tech.debug.xcconfig"; path = "Target Support Files/Pods-SciChrono Tech/Pods-SciChrono Tech.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E5B04912D5A0DAC00B123DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F267D3C2C72EEA8DCBB45CBA /* Pods_SciChrono_Tech.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E2910302D5C87620091DFB3 /* ScientificCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				4E2910312D5C87910091DFB3 /* ScientificCalculatorViewController.swift */,
+			);
+			path = ScientificCalculator;
+			sourceTree = "<group>";
+		};
+		4E4FD3B42D5CBADF00EDA99B /* History */ = {
+			isa = PBXGroup;
+			children = (
+				4E4FD3B52D5CBAFD00EDA99B /* HistoryViewController.swift */,
+				4EA2B6A52D5DDE3800EFE44F /* ScientificHistoryCell.swift */,
+				4EA2B6A72D5DDE5000EFE44F /* StandardHistoryCell.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		4E5B048B2D5A0DAC00B123DB = {
+			isa = PBXGroup;
+			children = (
+				4E5B04962D5A0DAC00B123DB /* SciChrono Tech */,
+				4E5B04952D5A0DAC00B123DB /* Products */,
+				6F7D431AA4521F110F50310D /* Pods */,
+				5E231EFD4C5B85902FB10D4D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4E5B04952D5A0DAC00B123DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E5B04942D5A0DAC00B123DB /* SciChrono Tech.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E5B04962D5A0DAC00B123DB /* SciChrono Tech */ = {
+			isa = PBXGroup;
+			children = (
+				4EC2F6332D635DAC00900FC2 /* UnitConversion */,
+				4E4FD3B42D5CBADF00EDA99B /* History */,
+				4E2910302D5C87620091DFB3 /* ScientificCalculator */,
+				4E8489272D5B6AF300AEB43A /* StandardCalculator */,
+				4E80D63B2D5B534400BFE28A /* Age Calculator */,
+				4ED547D52D5B423600A31F4E /* AppSetting */,
+				4E5B04B32D5A113600B123DB /* Dashboardscreen */,
+				4E5B04AE2D5A10B500B123DB /* Helper */,
+				4E5B04AB2D5A101000B123DB /* WelcomeScreen */,
+				4E5B04972D5A0DAC00B123DB /* AppDelegate.swift */,
+				4E5B04992D5A0DAC00B123DB /* SceneDelegate.swift */,
+				4E5B049B2D5A0DAC00B123DB /* ViewController.swift */,
+				4E5B049D2D5A0DAC00B123DB /* Main.storyboard */,
+				4E5B04A02D5A0DAE00B123DB /* Assets.xcassets */,
+				4E5B04A22D5A0DAE00B123DB /* LaunchScreen.storyboard */,
+				4E5B04A52D5A0DAE00B123DB /* Info.plist */,
+			);
+			path = "SciChrono Tech";
+			sourceTree = "<group>";
+		};
+		4E5B04AB2D5A101000B123DB /* WelcomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				4E5B04AC2D5A104000B123DB /* WelcomeSreenViewController.swift */,
+			);
+			path = WelcomeScreen;
+			sourceTree = "<group>";
+		};
+		4E5B04AE2D5A10B500B123DB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4E5B04AF2D5A110200B123DB /* Helper.swift */,
+				4E5B04B02D5A110200B123DB /* iOSDropDown.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		4E5B04B32D5A113600B123DB /* Dashboardscreen */ = {
+			isa = PBXGroup;
+			children = (
+				4E5B04B42D5A114C00B123DB /* DashboardViewController.swift */,
+				4E95072D2D65D8D000867FA9 /* HomeCollectionViewCell.swift */,
+			);
+			path = Dashboardscreen;
+			sourceTree = "<group>";
+		};
+		4E80D63B2D5B534400BFE28A /* Age Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				4E80D63C2D5B535900BFE28A /* AgeCalculatorViewController.swift */,
+			);
+			path = "Age Calculator";
+			sourceTree = "<group>";
+		};
+		4E8489272D5B6AF300AEB43A /* StandardCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				4E8489282D5B6B0D00AEB43A /* StandardcalculatorViewController.swift */,
+			);
+			path = StandardCalculator;
+			sourceTree = "<group>";
+		};
+		4EC2F6332D635DAC00900FC2 /* UnitConversion */ = {
+			isa = PBXGroup;
+			children = (
+				4EC2F6342D635DD200900FC2 /* UnitconversionViewController.swift */,
+			);
+			path = UnitConversion;
+			sourceTree = "<group>";
+		};
+		4ED547D52D5B423600A31F4E /* AppSetting */ = {
+			isa = PBXGroup;
+			children = (
+				4ED547D92D5B426200A31F4E /* AboutusViewController.swift */,
+				4ED547D82D5B426200A31F4E /* FeedbackViewController.swift */,
+				4ED547D72D5B426200A31F4E /* SettingsViewController.swift */,
+				4ED547D62D5B426100A31F4E /* SideMenuTableViewCell.swift */,
+			);
+			path = AppSetting;
+			sourceTree = "<group>";
+		};
+		5E231EFD4C5B85902FB10D4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4104A34DCEB4537923FCFA4A /* Pods_SciChrono_Tech.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F7D431AA4521F110F50310D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFFE312F52B6617F3610F939 /* Pods-SciChrono Tech.debug.xcconfig */,
+				0380D8AD0BD91699AE6FC817 /* Pods-SciChrono Tech.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E5B04932D5A0DAC00B123DB /* SciChrono Tech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E5B04A82D5A0DAE00B123DB /* Build configuration list for PBXNativeTarget "SciChrono Tech" */;
+			buildPhases = (
+				459FFDDB4F7DB4F51E2A9CEE /* [CP] Check Pods Manifest.lock */,
+				4E5B04902D5A0DAC00B123DB /* Sources */,
+				4E5B04912D5A0DAC00B123DB /* Frameworks */,
+				4E5B04922D5A0DAC00B123DB /* Resources */,
+				13D212FCD085FB4E906B6421 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SciChrono Tech";
+			productName = "SciChrono Tech";
+			productReference = 4E5B04942D5A0DAC00B123DB /* SciChrono Tech.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E5B048C2D5A0DAC00B123DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					4E5B04932D5A0DAC00B123DB = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 4E5B048F2D5A0DAC00B123DB /* Build configuration list for PBXProject "SciChrono Tech" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E5B048B2D5A0DAC00B123DB;
+			productRefGroup = 4E5B04952D5A0DAC00B123DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E5B04932D5A0DAC00B123DB /* SciChrono Tech */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E5B04922D5A0DAC00B123DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E5B04A42D5A0DAE00B123DB /* LaunchScreen.storyboard in Resources */,
+				4E5B04A12D5A0DAE00B123DB /* Assets.xcassets in Resources */,
+				4E5B049F2D5A0DAC00B123DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13D212FCD085FB4E906B6421 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SciChrono Tech/Pods-SciChrono Tech-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SciChrono Tech/Pods-SciChrono Tech-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SciChrono Tech/Pods-SciChrono Tech-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		459FFDDB4F7DB4F51E2A9CEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SciChrono Tech-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E5B04902D5A0DAC00B123DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E5B04B22D5A110300B123DB /* iOSDropDown.swift in Sources */,
+				4E5B04B52D5A114C00B123DB /* DashboardViewController.swift in Sources */,
+				4E5B049C2D5A0DAC00B123DB /* ViewController.swift in Sources */,
+				4E95072E2D65D8D000867FA9 /* HomeCollectionViewCell.swift in Sources */,
+				4E4FD3B62D5CBAFD00EDA99B /* HistoryViewController.swift in Sources */,
+				4ED547DD2D5B426200A31F4E /* AboutusViewController.swift in Sources */,
+				4ED547DC2D5B426200A31F4E /* FeedbackViewController.swift in Sources */,
+				4ED547DA2D5B426200A31F4E /* SideMenuTableViewCell.swift in Sources */,
+				4E5B04982D5A0DAC00B123DB /* AppDelegate.swift in Sources */,
+				4E8489292D5B6B0D00AEB43A /* StandardcalculatorViewController.swift in Sources */,
+				4EA2B6A62D5DDE3800EFE44F /* ScientificHistoryCell.swift in Sources */,
+				4E5B04B12D5A110300B123DB /* Helper.swift in Sources */,
+				4E5B04AD2D5A104000B123DB /* WelcomeSreenViewController.swift in Sources */,
+				4EA2B6A82D5DDE5000EFE44F /* StandardHistoryCell.swift in Sources */,
+				4E5B049A2D5A0DAC00B123DB /* SceneDelegate.swift in Sources */,
+				4E80D63D2D5B535900BFE28A /* AgeCalculatorViewController.swift in Sources */,
+				4ED547DB2D5B426200A31F4E /* SettingsViewController.swift in Sources */,
+				4EC2F6352D635DD200900FC2 /* UnitconversionViewController.swift in Sources */,
+				4E2910322D5C87910091DFB3 /* ScientificCalculatorViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4E5B049D2D5A0DAC00B123DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E5B049E2D5A0DAC00B123DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E5B04A22D5A0DAE00B123DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E5B04A32D5A0DAE00B123DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E5B04A62D5A0DAE00B123DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E5B04A72D5A0DAE00B123DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E5B04A92D5A0DAE00B123DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFFE312F52B6617F3610F939 /* Pods-SciChrono Tech.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SciChrono Tech/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SciChrono-Tech.sm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4E5B04AA2D5A0DAE00B123DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0380D8AD0BD91699AE6FC817 /* Pods-SciChrono Tech.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SciChrono Tech/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SciChrono-Tech.sm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E5B048F2D5A0DAC00B123DB /* Build configuration list for PBXProject "SciChrono Tech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E5B04A62D5A0DAE00B123DB /* Debug */,
+				4E5B04A72D5A0DAE00B123DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E5B04A82D5A0DAE00B123DB /* Build configuration list for PBXNativeTarget "SciChrono Tech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E5B04A92D5A0DAE00B123DB /* Debug */,
+				4E5B04AA2D5A0DAE00B123DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E5B048C2D5A0DAC00B123DB /* Project object */;
+}
